@@ -1,0 +1,176 @@
+/* ourTeam.css */
+@media (max-width: 641px) {
+    .bgDirector {
+        margin-top: 20px !important;
+    }
+
+    .ourTeam1 {
+        margin-top: 20px !important;
+    }
+}
+
+/* eventOverview.css */
+@media (max-width: 641px) {
+    .eventShortDesc {
+        font-size: 48px;
+        color: rgb(239, 117, 15);
+        font-weight: 750;
+        line-height: 1 !important;
+        max-height: calc(10.5em) !important;
+    }
+}
+
+/* position.css */
+@media (max-width: 641px) {
+    .filterTabs button {
+        margin: 6px 10px !important;
+        border: 1px solid;
+    }
+}
+
+/* lifeAtWc.css */
+@media (max-width: 641px) {
+    .ver-direction {
+        flex-direction: column !important;
+    }
+}
+
+/* blogOverview.css */
+@media (max-width: 641px) {
+    .secDate {
+        display: none;
+    }
+}
+
+/* circularCards.css */
+
+@media (max-width: 641px) {
+    .centerItemFourPillars {
+        flex-direction: column;
+    }
+
+    .bgArrow {
+        background-image: none !important;
+    }
+}
+
+/*  rightSideMenu.css*/
+
+@media (min-width: 320px) and (max-width: 768px) {
+    /* .header {
+        height: 5rem;
+    } */
+
+    .sizeWc {
+        width: 110px;
+        height: auto;
+        margin-left: 42px;
+    }
+
+    .bi-search::before {
+        content: "\f52a";
+        position: absolute;
+        left: 10rem;
+        color: white;
+        width: 1rem;
+        height: 1rem;
+        top: 13px;
+    }
+
+    .nav-link {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: justify;
+        margin-left: 27px;
+    }
+
+    .modal span a {
+        margin-left: 9px;
+    }
+
+    .menuBtn {
+        width: 50px !important;
+        padding-left: 14px !important;
+    }
+
+    .header-btn,
+    .agents {
+        margin: 0.5rem 0;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 641px) {
+    .mobileModalSpan {
+        margin-left: 36px !important;
+    }
+}
+
+
+/*  header.css*/
+.body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 641px) {
+    i.bi.bi-list {
+        margin-left: 95px;
+        font-size: 32px;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+/* advancedSearchBar.css */
+@media (min-width: 320px) and (max-width: 768px) {
+    .advancedSearchBar {
+        width: 300px;
+    }
+
+    .advancedSearchBar div .filterSearchBtn {
+        width: 85px !important;
+        margin-left: 132px !important;
+        height: 31px !important;
+
+    }
+
+    .advancedSearchBar div input {
+        /* border: 2px solid red !important; */
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-size: 0.75rem;
+    }
+
+    /* .input-width input {
+        width: 250px !important;
+        border: 2px solid green;
+    } */
+}
+
+@media (max-width:641px) {
+    .menu {
+        display: none !important;
+
+    }
+}
+
+
+/* style.css MileStones.js */
+
+@media (max-width:641px) {
+    .achievements {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100% !important;
+        padding-bottom: 1.5rem;
+    }
+}
+
+
+/* .video-container {
+    height: 100% !important;
+} */

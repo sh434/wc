@@ -1,0 +1,174 @@
+.aboutBuilder-Headline {
+    line-height: 1.5rem !important;
+}
+
+.HeadLine {
+    border: 2px solid red;
+}
+
+.location-map {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .location-map iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+  }
+  
+  .brochure-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .brochure-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .brochure-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .brochure-item {
+    flex: 1 1 calc(25% - 10px); 
+    box-sizing: border-box;
+  }
+  
+  .brochure-link {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #f37834;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .brochure-link:hover {
+    background-color: #f37834;
+  }
+  .prize-list-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .prize-list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .prize-list-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .prize-list-item {
+    flex: 1 1 calc(25% - 10px); 
+    box-sizing: border-box;
+  }
+  
+  .prize-list-link {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #f37834;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prize-list-link:hover {
+    background-color: #f37834;
+  }
+  
+  .prize-list-viewer {
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .prize-list-viewer object {
+    width: 100%;
+    height: 100%;
+  }
+  .center-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .amenitiesBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .amenitiesImgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .amenitiesImgBox img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .placeholder-image {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+  }
+  
+  .amenitiesDetailsBox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .amenitiesDetailsImgBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .amenitiesDetailsImgBox img {
+    max-width: 100%;
+    height: auto;
+  }
