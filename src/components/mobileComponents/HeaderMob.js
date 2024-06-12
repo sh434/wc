@@ -16,13 +16,17 @@ const HeaderMob = () => {
                     alt="company_logo"
                     className="img-fluid header-logo"
                 /></Navbar.Brand>
-                <input id="toggleChecker" type="checkbox" />
-                <label id="togglerLable" htmlFor="toggleChecker">
-                    <div className="checkboxtoggler">
-                        <div className="line-1" />
-                        <div className="line-2" />
-                        <div className="line-3" />
-                    </div>
+                <input
+                    hidden=""
+                    className="check-icon"
+                    id="check-icon"
+                    name="check-icon"
+                    type="checkbox"
+                />
+                <label className="icon-menu" htmlFor="check-icon">
+                    <div className="bar bar--1" />
+                    <div className="bar bar--2" />
+                    <div className="bar bar--3" />
                 </label>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
